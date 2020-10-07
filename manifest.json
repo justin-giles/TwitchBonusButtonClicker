@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "TwitchBonusClicker",
+    "version": "1.0",
+    "description": "Clicks the bonus button on Twitch streams.",
+    "content_scripts": [
+      {
+        "matches": ["*://*.twitch.tv/*"],
+        "js": ["bonusButtonClicker.js"]
+      }
+    ],
+    "icons": {
+        "48": "icons/bonus_icon.png"
+    },
+    "browser_specific_settings": {
+      "gecko": {
+        "id": ""
+      }
+    }
+  }
