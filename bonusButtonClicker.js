@@ -1,4 +1,4 @@
-const twitchBonusButton = document.getElementsByClassName("tw-button tw-button--success tw-interactive");
+const twitchBonusButton = document.getElementsByClassName("tw-button tw-button--success");
 const targetNode = document.documentElement;
 
 let observerOptions = {
